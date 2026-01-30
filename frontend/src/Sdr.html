@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+< html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sdr</title>
+</head>
+<body>
+    <h1>JavaScript Functions</h1>
+    
+    
+    <script>
+
+// Function 1: Logarithmic function without delay
+function logFunction1() {
+    return new Promise((resolve,reject) => {
+        var value=true;
+        if(value){
+          console.log("f1 ok");
+          resolve("");
+        }else{
+          reject()
+        }
+        
+    });
+}
+
+// Function 2: Logarithmic function with setTimeout
+function logFunction2() {
+    return new Promise((resolve,reject) => {
+        setTimeout(function () {
+          var values=true;
+        if(values){
+          console.log("f2 ok");
+          resolve("");
+        }else{
+          reject()
+        }
+        }, 2000); // Delay of 2000 milliseconds (2 seconds)
+    });
+}
+
+// Function 3: Logarithmic function without delay
+function logFunction3() {
+    return new Promise((resolve) => {
+      setTimeout(function () {
+          var values=true;
+        if(values){
+          console.log("f3 ok");
+          resolve("");
+        }else{
+          reject()
+        }
+        }, 1000);
+        resolve();
+    });
+}
+
+// Call functions using promises
+logFunction1()
+    .then(logFunction2)
+    .then(logFunction3).catch(()=>{console.log("faile to load");});
+    
+
+//   var rese= new Promise((resolve,reject)=>{
+//   const value=true;
+    
+//   if(value){
+//    setTimeout(()=>{
+//     console.log("ram come")
+//    },1000) 
+//   }
+//   else{
+//     reject("faile",401)
+//   }
+// })
+// function display(){
+// console.log('hai');
+// console.log('bai');
+// }
+// display();      
+
+//  async function trial(){
+  
+// trials=await rese;
+
+// console.log(trials);
+
+// }
+
+// trial()
+
+
+// trial().then((per)=>{
+  
+//   console.log("hai");
+
+//   setTimeout(()=>{
+// console.log("dhanu",per);
+//   },1000);
+//   console.log("bbb");
+// }).catch(()=>console.log("fail"))
+
+// function trial(pre){
+// setInterval(()=>{
+//   console.log("hai",pre);
+  
+// },1000)
+// function untrial(){
+//   clearInterval(setInterval())
+// }
+// }
+// trial("ram");
+// function delayedFunction(callback) {
+//   setTimeout(() => {
+//     console.log('Function executed after 1000 milliseconds');
+//     callback();
+//   }, 1000);
+// }
+
+// console.log('Start');
+// delayedFunction(() => {
+//   console.log('Callback executed');
+// });
+// console.log('End');
+
+//hoisting
+// host();
+// let host=()=>{
+//     console.log("babies");
+// }
+// //iife
+// (function display(){
+//     let values=5;
+//     console.log("hai ram",values);
+// //clouser
+
+//     function chech(){
+//     let ans=5+values;
+//     console.log("the answer is ",ans);
+// }
+
+// chech();
+// })();
+// //callback
+// function displays(name){
+// console.log('the name is ',name);
+// }
+
+// function gret(call){
+// call('ram')
+// }
+// gret(displays);
+// //promise
+// function registation(){
+//     return new Promise((resolve,reject)=>{
+//         let attenece=true;
+//         if(attenece){
+//             resolve()
+//         }
+//         else{
+//             reject()
+//         }
+//     })
+// }
+// registation().then(()=>console.log("succes"))
+// .catch(()=>{console.log("faile")})
+// //async&awite
+// const getData = async () => {
+// 	let y = await "Hello World";
+// 	console.log(y);
+// }
+// console.log(getData());
+// getData();
+// console.log(1);
+// console.log(2);
+// function booking(){
+//     console.log('raja');
+    
+// }
+
+    
+    </script>
+</body>
+</html>

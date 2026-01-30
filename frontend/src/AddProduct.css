@@ -1,0 +1,12 @@
+.column-spacing {
+    padding-right: 15px; /* Adjust the value as needed */
+    padding-left: 15px;
+  }
+  
+  @media (min-width: 768px) {
+    .column-spacing {
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+  }
+  

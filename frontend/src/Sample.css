@@ -1,0 +1,17 @@
+.blue-border-form {
+  border: 2px solid blue;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.password-input {
+  position: relative;
+}
+
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
