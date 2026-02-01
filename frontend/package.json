@@ -2,7 +2,7 @@
   "name": "apps",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:6050", 
+  "proxy": "http://localhost:6050",
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
@@ -29,11 +29,11 @@
     "slick-carousel": "^1.8.1",
     "web-vitals": "^4.1.0"
   },
-  "scripts": {
+ "scripts": {
     "start": "react-scripts start",
-    "build": "GENERATE_SOURCEMAP=false react-scripts build",
-    "build:dev": "REACT_APP_ENV=development react-scripts build",
-    "build:prod": "REACT_APP_ENV=production react-scripts build",
+    "build": "cross-env GENERATE_SOURCEMAP=false react-scripts build",
+    "build:dev": "cross-env REACT_APP_ENV=development react-scripts build",
+    "build:prod": "cross-env REACT_APP_ENV=production react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -57,6 +57,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
+    "cross-env": "^10.1.0",
     "postcss": "^8.5.1",
     "tailwindcss": "^3.4.17"
   },
