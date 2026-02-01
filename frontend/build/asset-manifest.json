@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5990b9e8.css",
+    "main.js": "/static/js/main.10826817.js",
+    "static/js/52.a693aaba.chunk.js": "/static/js/52.a693aaba.chunk.js",
+    "static/js/82.1b7f7119.chunk.js": "/static/js/82.1b7f7119.chunk.js",
+    "static/js/239.0f9c84db.chunk.js": "/static/js/239.0f9c84db.chunk.js",
+    "static/js/685.fc211a94.chunk.js": "/static/js/685.fc211a94.chunk.js",
+    "static/media/welcom.jpeg": "/static/media/welcom.71c54a42a0849a90bc85.jpeg",
+    "static/media/medical-logo.jpg": "/static/media/medical-logo.af9c62baaa6eeb1c11c9.jpg",
+    "static/media/oilment.jpeg": "/static/media/oilment.f08cb0cbed923399b26f.jpeg",
+    "static/media/istockphoto.jpg": "/static/media/istockphoto.f5a51ed651d636191e01.jpg",
+    "static/media/welcome-back.jpeg": "/static/media/welcome-back.6a560055497e6cd1d487.jpeg",
+    "static/media/medical1.avif": "/static/media/medical1.b494d34d0e4734d9d444.avif",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.5990b9e8.css",
+    "static/js/main.10826817.js"
+  ]
+}
